@@ -31,4 +31,4 @@
 ;; Custom Shortcuts
 (global-set-key (kbd "C-x p") (lambda () (interactive) (other-window -1)))
 (global-set-key "\C-x\ \C-b" 'buffer-menu)
-
+(global-set-key (kbd "C-x b") 'erase-buffer)
